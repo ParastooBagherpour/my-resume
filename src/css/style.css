@@ -1,0 +1,99 @@
+body{
+    font-family: IRANSans;
+}
+.container{
+    max-width: 85%;
+}
+.name-font{
+    font-size: 55px;
+}
+.p-font{
+    font-size: 20px;
+}
+.card-body{
+    width: 100%;
+}
+.card-footer{
+    background-color: #b4b4b4;
+    width: 100%;
+    height: 80px;
+    padding: 0;
+}
+.card-style{
+    height: 800px;
+    padding-top: 70px;
+    margin-top: 140px;
+}
+.line-height-style{
+    line-height: 30px;
+}
+video{
+    width: 90%;
+    border-radius: 10px;
+}
+.border-height{
+    border-bottom: 3px solid #707070 !important
+}
+.border-height p{
+    color: #707070;
+}
+.rec{
+    width: 70%;
+    height: 120px;
+    border-radius: 20px;
+
+}
+span{
+    width: 25%;
+    height: 120px;
+    
+}
+.rec .span1{
+    background-color: #DA627D;
+    border-radius: 0px 20px 20px 0px;
+    color: #F8E1E6;
+}
+.rec .span2{
+    background-color: #0096C7;
+    border-radius: 20px 0px 0px 20px;
+    color: #CFEBF5;
+}
+.rec .span3{
+    background-color: #76C893;
+    border-radius:0px 20px 20px 0px;
+    color: #E5F5EB;
+}
+.borders-rec{
+    width: 120px;
+    height: 120px;
+    position: relative;
+    /* background-color: blue; */
+    top:60px;
+}
+.colored-circles{
+    width: 75px;
+    height: 75px;
+    z-index: 2;
+    position: relative;
+}
+.colored-circle1{
+    background-color: #FFA5AB;
+    color: #FFD9DC;
+    left: -38px;
+}
+.colored-circle2{
+    background-color: #00B4D8;
+    color: #94DFEF;
+    right: -38px;
+}
+.colored-circle3{
+    background-color: #99D98C;
+    color: #D4EFCF;
+    left: -38px;
+}
+.rec-mt{
+    margin-top: 60px;
+}
+.skill-size{
+    width: 200px;
+}

@@ -4,15 +4,26 @@ body{
 .container{
     max-width: 85%;
 }
+.card-column-height{
+    height: 100vh
+}
+.section-radius{
+    border-radius: 20px;
+}
+.card-style{
+    height: 800px;
+    padding-top: 70px;
+}
+.card-body{
+    width: 100%;
+}
 .name-font{
     font-size: 55px;
 }
 .p-font{
     font-size: 20px;
 }
-.card-body{
-    width: 100%;
-}
+
 .my-card-footer{
     background-color: #b4b4b4;
     width: 100%;
@@ -20,14 +31,10 @@ body{
     padding: 0;
     border-radius: 0px 0px 20px 20px;
 }
-.card-style{
-    height: 800px;
-    padding-top: 70px;
-    /* margin-top: 140px; */
+.border-bottom{
+    border-bottom: 3px solid #707070 !important
 }
-.section-radius{
-    border-radius: 20px;
-}
+
 .line-height-style{
     line-height: 30px;
 }
@@ -35,10 +42,8 @@ video{
     width: 90%;
     border-radius: 10px;
 }
-.border-height{
-    border-bottom: 3px solid #707070 !important
-}
-.border-height p{
+
+.border-bottom p{
     color: #707070;
 }
 .rec{
@@ -71,7 +76,6 @@ span{
     width: 120px;
     height: 120px;
     position: relative;
-    /* background-color: blue; */
     top:60px;
 }
 .colored-circles{
@@ -101,6 +105,15 @@ span{
 .skill-size{
     width: 200px;
 }
+.width-80{
+    width: 80%;
+}
+.skill-amount-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between
+}
 .skill-amount-circles{
     width: 25px;
     height: 25px;
@@ -114,14 +127,5 @@ span{
 .countries-flag{
     width: 250px;
     height: 200px;
-    background-size: cover;
 }
-.skill-amount-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between
-}
-.width-80{
-    width: 80%;
-}
+

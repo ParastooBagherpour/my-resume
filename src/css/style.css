@@ -13,16 +13,20 @@ body{
 .card-body{
     width: 100%;
 }
-.card-footer{
+.my-card-footer{
     background-color: #b4b4b4;
     width: 100%;
     height: 80px;
     padding: 0;
+    border-radius: 0px 0px 20px 20px;
 }
 .card-style{
     height: 800px;
     padding-top: 70px;
-    margin-top: 140px;
+    /* margin-top: 140px; */
+}
+.section-radius{
+    border-radius: 20px;
 }
 .line-height-style{
     line-height: 30px;
@@ -96,4 +100,28 @@ span{
 }
 .skill-size{
     width: 200px;
+}
+.skill-amount-circles{
+    width: 25px;
+    height: 25px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.red-color{
+    background-color: #D80027;
+}
+.countries-flag{
+    width: 250px;
+    height: 200px;
+    background-size: cover;
+}
+.skill-amount-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between
+}
+.width-80{
+    width: 80%;
 }

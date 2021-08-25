@@ -8,35 +8,41 @@ body{
     height: 100vh
 }
 .section-radius{
-    border-radius: 20px;
+    border-radius: 15px;
 }
 .card-style{
-    height: 800px;
-    padding-top: 70px;
+    height: 600px;
+    padding-top: 30px;
 }
 .card-body{
     width: 100%;
 }
 .name-font{
-    font-size: 55px;
+    font-size: 35px;
 }
 .p-font{
-    font-size: 20px;
+    font-size: 15px;
 }
-
+.img-size{
+    width: 30px;
+    height: 30px;
+}
 .my-card-footer{
     background-color: #b4b4b4;
     width: 100%;
-    height: 80px;
-    padding: 0;
-    border-radius: 0px 0px 20px 20px;
+    height: 50px;
+    padding: 1px;
+    border-radius: 0px 0px 15px 15px;
+}
+.user-size{
+    width: 60px;
 }
 .border-bottom{
     border-bottom: 3px solid #707070 !important
 }
 
 .line-height-style{
-    line-height: 30px;
+    line-height: 25px;
 }
 video{
     width: 90%;
@@ -48,59 +54,59 @@ video{
 }
 .rec{
     width: 70%;
-    height: 120px;
+    height: 100px;
     border-radius: 20px;
 
 }
 span{
     width: 25%;
-    height: 120px;
+    height: 100px;
     
 }
 .rec .span1{
     background-color: #DA627D;
-    border-radius: 0px 20px 20px 0px;
+    border-radius: 0px 15px 15px 0px;
     color: #F8E1E6;
 }
 .rec .span2{
     background-color: #0096C7;
-    border-radius: 20px 0px 0px 20px;
+    border-radius: 15px 0px 0px 15px;
     color: #CFEBF5;
 }
 .rec .span3{
     background-color: #76C893;
-    border-radius:0px 20px 20px 0px;
+    border-radius:0px 15px 15px 0px;
     color: #E5F5EB;
 }
 .borders-rec{
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     position: relative;
-    top:60px;
+    top:50px;
 }
 .colored-circles{
-    width: 75px;
-    height: 75px;
+    width: 65px;
+    height: 65px;
     z-index: 2;
     position: relative;
 }
 .colored-circle1{
     background-color: #FFA5AB;
     color: #FFD9DC;
-    left: -38px;
+    left: -35px;
 }
 .colored-circle2{
     background-color: #00B4D8;
     color: #94DFEF;
-    right: -38px;
+    right: -35px;
 }
 .colored-circle3{
     background-color: #99D98C;
     color: #D4EFCF;
-    left: -38px;
+    left: -35px;
 }
 .rec-mt{
-    margin-top: 60px;
+    margin-top: 50px;
 }
 .skill-size{
     width: 200px;

@@ -24,8 +24,8 @@ body{
     font-size: 15px;
 }
 .img-size{
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
 }
 .my-card-footer{
     background-color: #b4b4b4;
@@ -111,8 +111,8 @@ span{
 .skill-size{
     width: 200px;
 }
-.width-80{
-    width: 80%;
+.width-85{
+    width: 85%;
 }
 .skill-amount-container{
     display: flex;
@@ -121,8 +121,8 @@ span{
     justify-content: space-between
 }
 .skill-amount-circles{
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     border: 1px solid gray;
     border-radius: 50%;
     margin-left: 10px;
@@ -131,7 +131,8 @@ span{
     background-color: #D80027;
 }
 .countries-flag{
-    width: 250px;
-    height: 200px;
+    /* width: 200px;
+    height: 150px; */
+    /* margin-bottom: 40px; */
 }
 

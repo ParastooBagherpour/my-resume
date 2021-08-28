@@ -342,13 +342,19 @@ span {
 .each-pro-style{
  border-right: 10px solid #757575;
  border-radius: 10px;
- height: 250px;
+ height: 220px;
 }
 .programming-lan-pro{
   background-color: #959595;
   border-radius: 15px;
   font-size: 13px;
 
+}
+.pro-section-height{
+  height: 700px;
+}
+.n-mt{
+  margin-top: -10px ;
 }
 /* activity fields style */
 ul li{

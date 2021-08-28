@@ -53,7 +53,7 @@ body {
 .rec {
   width: 70%;
   height: 100px;
-  border-radius: 20px;
+  border-radius: 15px;
 }
 span {
   width: 25%;
@@ -283,6 +283,77 @@ span {
     width: 180px;
     height: 130px;
   }
+  /* experiences style */
+.vertical-div{
+  width:15px ;
+  height: 370px;
+  background-color: #f8f9fa;
+  border-radius: 20px;
+  position: relative;
+  top: -330px;
+}
+.exp-container{
+  position: relative;
+  left: 35px;
+  z-index: 2;
+}
+.exp-company-container{
+  width: 55%;
+  height: 110px;
+}
+.margin-top{
+  margin-top: 80px;
+}
+.exp-company-footer{
+  width: 100%;
+  height: 25px;
+  background-color:#a4a4a4 ;
+  border-radius: 0px 0px 15px 15px;
+}
+.exp-company-footer a{
+  text-decoration: none;
+  color: white;
+}
+.gray-line{
+  width: 10%;
+  height: 5px;
+  background-color: #a4a4a4;
+}
+.time-exp-container{
+  width: 20%;
+  border: 1px solid black;
+  height: 50px;
+  font-size: 14px;
+}
+.big-circle{
+  width: 30px;
+  height: 30px;
+  background-color: #a4a4a4 ;
+}
+.small-circle{
+  width: 15px;
+  height: 15px;
+  background-color: #757575 ;
+}
+.exp-section-height{
+  height: 550px;
+}
+/* projects style */
+.each-pro-style{
+ border-right: 10px solid #757575;
+ border-radius: 10px;
+ height: 250px;
+}
+.programming-lan-pro{
+  background-color: #959595;
+  border-radius: 15px;
+  font-size: 13px;
+
+}
+/* activity fields style */
+ul li{
+  color: #5c5c5c ;
+}
 /* animation style */
 @keyframes img-animate {
   0% {
